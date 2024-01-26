@@ -33,7 +33,7 @@ p{
      font-weight: 700;
      line-height: 1.3em;
      font-size:2rem;
-     color: rgb(79, 2, 2);
+     color: rgb(211, 202, 202);
 }
 
 
@@ -153,40 +153,46 @@ section{
     background-image: url('images/bg_about_pc.webp');
 }
 
-
+/* this is the word "ABOUT" */
 .about h1{
     font-family: 'Rubik Burned';
     text-align: center;
-    font-size: 50px;
-    color: rgb(79, 2, 2);
-    font-weight: 500;
+    font-size: 40px;
+    color: rgb(235, 229, 229);
+    font-weight: 400;
     margin-bottom: 5%;
 }
 
+/* this is the 'about' text in paragraph */
 .about p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
     font-size: 2rem;
-    text-align: center;
     margin-bottom: 5%;
 }
 
 
 .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
-    align-items: center; ;
+    align-items: center; 
    }
 
 .taki{
     max-width: 50%;
-    max-height:0%;
     border-radius: 54%;
   }
    
-  
-.text {
-    font-family: 'Honk';
+/* taki text */
+.text p{
+    font-family: 'Rubik Burned';
      display: flex;
-     padding-left: 5px 20px;
-     text-align: right;
+     text-align: center;
      
 }
 
