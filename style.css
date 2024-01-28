@@ -137,6 +137,10 @@ nav ul li a{
 }
 
 
+.discography{
+    background-image: url('./images/bg2.webp');
+}
+
 .about h1{
     font-family: 'Rubik Burned';
     text-align: center;
@@ -163,6 +167,16 @@ nav ul li a{
     margin-bottom: 5%;
     color: red;
 }
+
+.discography h1{
+    font-family: 'Rubik Burned';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5%;
+    color: red;
+}
+
 
 .about p{
     font-family:'Rubik Burned';
@@ -241,6 +255,16 @@ nav ul li a{
 }
 
 
+.discography p{
+    font-family:'Workbench';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: white;
+}
+
 
 .tour h3{
     font-family:'Rubik Burned';
@@ -250,6 +274,26 @@ nav ul li a{
     font-size: 3rem;
     margin-bottom: 5%;
     color: red;
+}
+
+.discography h3{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    color: yellow;
+}
+
+
+.footer{
+    font-family: 'Rubik Burned';
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5%;
+    color: white;
 }
 
 
@@ -292,8 +336,8 @@ nav ul li a{
 
 
 .taki{
-    max-width: 50%;
-    border-radius: 54%;
+    max-width: 90%;
+    border-radius: 94%;
   }
    
 .yamashita{
@@ -312,13 +356,7 @@ nav ul li a{
     border-radius: 84%;
   }
    
-/* taki text */
-.text p{
-    font-family: 'Rubik Burned';
-     display: flex;
-     text-align: center;
-     
-}
+
 
      
 
