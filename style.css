@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Glitch+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
 *{
     margin: 0;
@@ -62,14 +63,14 @@ nav{
 }
 
 nav .logo{
-    width: 50px;
+    width: 70px;
     border-radius: 60%;
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 nav ul li a{
@@ -77,6 +78,8 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 19px ;
+    line-height: -6px;
+    
 
 }
 
@@ -86,7 +89,7 @@ nav ul li a{
 
 .text_box h1{
     font-family:'Rubik Glitch Pop';
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: 600;
     transition: 0.9s;
@@ -105,8 +108,8 @@ nav ul li a{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    color: azure;
-    border: 2px outset azure ;
+    color: white;
+    border: 2px outset white ;
     padding: 5px 20px;
     margin-top: 3%;
 
@@ -129,6 +132,11 @@ nav ul li a{
     background-image: url('images/bg_item_pc.webp');
 }
 
+.events{
+    background-image: url('./images/Ambitions-album-cover.jpg');
+}
+
+
 .about h1{
     font-family: 'Rubik Burned';
     text-align: center;
@@ -147,7 +155,27 @@ nav ul li a{
     margin-bottom: 5%;
 }
 
+.events h1{
+    font-family: 'Workbench';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5%;
+    color: red;
+}
+
 .about p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: red;
+}
+
+
+.text1 p{
     font-family:'Rubik Burned';
     max-width: 900px;
     width: 80%;
@@ -156,6 +184,41 @@ nav ul li a{
     margin-bottom: 5%;
     color: white;
 }
+
+.text2 p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: yellow;
+}
+
+.text3 p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: red;
+}
+
+.text4 p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: yellow;
+}
+
+
+
+
+
 
 .tour p{
     font-family:'Rubik Burned';
@@ -167,12 +230,24 @@ nav ul li a{
     color: aliceblue;
 }
 
+.events p{
+    font-family:'Workbench';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: red;
+}
+
+
+
 .tour h3{
     font-family:'Rubik Burned';
     max-width: 900px;
     width: 80%;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 5%;
     color: red;
 }
@@ -246,16 +321,7 @@ nav ul li a{
 }
 
      
-.events p{
-    font-family:'Rubik Maps';
-    color:white;
-    max-width: 900px;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 3rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+
    
 
 
