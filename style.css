@@ -125,6 +125,9 @@ nav ul li a{
     background-image: url('images/bg_about_pc.webp');
 }
 
+.tour{
+    background-image: url('images/bg_item_pc.webp');
+}
 
 .about h1{
     font-family: 'Rubik Burned';
@@ -135,6 +138,14 @@ nav ul li a{
     margin-bottom: 5%;
 }
 
+.tour h1{
+    font-family: 'Rubik Burned';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(235, 229, 229);
+    font-weight: 400;
+    margin-bottom: 5%;
+}
 
 .about p{
     font-family:'Rubik Burned';
@@ -143,6 +154,25 @@ nav ul li a{
     margin: 0 auto;
     font-size: 2rem;
     margin-bottom: 5%;
+}
+
+.tour p{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.tour h3{
+    font-family:'Rubik Burned';
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: red;
 }
 
 
