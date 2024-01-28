@@ -59,8 +59,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-
-
 }
 
 nav .logo{
@@ -122,38 +120,12 @@ nav ul li a{
     z-index: -1;
 }
 
-@media (min-aspect-ratio: 16/9){
-    .back-video{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9){
-    .back-video{
-        width: auto;
-        height: 100%;
-    }
-}
-
-@media screen and(max-width:768px) {
-    .nav{
-        position: relative;
-    }
-}
-
-
-/* 100px gap through each sections */
-section{
-    padding: 10px 0;
-}
-
 
 .about{
     background-image: url('images/bg_about_pc.webp');
 }
 
-/* this is the word "ABOUT" */
+
 .about h1{
     font-family: 'Rubik Burned';
     text-align: center;
@@ -163,7 +135,7 @@ section{
     margin-bottom: 5%;
 }
 
-/* this is the 'about' text in paragraph */
+
 .about p{
     font-family:'Rubik Burned';
     max-width: 900px;
@@ -253,3 +225,46 @@ section{
     margin-bottom: 5%;
 }
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media stuff */
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .nav{
+        position: relative;
+    }
+}
+
