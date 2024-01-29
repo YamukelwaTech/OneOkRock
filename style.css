@@ -1,9 +1,5 @@
 /* import fonts locally  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Glitch+Pop&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&family=Sixtyfour&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Rubik+Burned&family=Rubik+Glitch+Pop&family=Black+Ops+One&family=Honk&family=Rubik+Maps&family=Sixtyfour&family=Workbench&display=swap');
 
 *{
     margin: 0;
@@ -404,3 +400,52 @@ nav ul li a{
     }
 }
 
+/* Your existing styles */
+
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container,
+    .container1,
+    .container2,
+    .container3 {
+        width: 90%;
+    }
+
+    .text_box h1 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .nav {
+        padding: 10px;
+    }
+
+    .text_box h1 {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Your existing media query rules */
