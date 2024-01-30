@@ -314,8 +314,8 @@ nav ul li a{
    }
 
 .container1{
-    width: 90%;
-    height: 100%;
+    width: 50%;
+    height: 90%;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -343,23 +343,23 @@ nav ul li a{
 
 
 .taki{
-    max-width: 90%;
-    border-radius: 94%;
+    max-width: 60%;
+    border-radius: 84%;
   }
    
 .yamashita{
-    max-width: 50%;
-    border-radius: 89%;
+    max-width: 60%;
+    border-radius: 84%;
   }
    
 .ryota{
-    max-width: 50%;
-    border-radius: 54%;
+    max-width: 60%;
+    border-radius: 84%;
   }
 
 
 .tomoya{
-    max-width: 50%;
+    max-width: 60%;
     border-radius: 84%;
   }
    
