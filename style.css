@@ -280,8 +280,19 @@ nav ul li a{
     font-size: 3rem;
     margin-bottom: 5%;
     color: yellow;
+    
 }
 
+.album a {
+    text-decoration: none;
+    color: transparent;
+    cursor: default;
+}
+
+/* .album a:hover { */
+    /* text-decoration: underline; */
+    /* color: transparent;  */
+}
 
 .footer{
     font-family: 'Rubik Burned';
