@@ -1,10 +1,10 @@
-# Yam's Groovy Band Hub 🎸🎤
+# Yam's and Mohammed Groovy Band Hub 🎸🎤
 
-Welcome to my HTML-CSS Pair Project: Music Band Page! This project is an ode to my love for both coding and music. Let's create a vibrant hub for a real or fictional music band, capturing the essence of their journey and talent.
+Welcome to our HTML-CSS Pair Project: Music Band Page! This project is an ode to my love for both coding and music. Let's create a vibrant hub for a real or fictional music band, capturing the essence of their journey and talent.
 
 ## Project Objective 🎯
 
-In this project, my goal is to craft an engaging homepage for a music band, featuring their discography, upcoming events, and introducing the talented members behind the music.
+In this project, our goal is to craft an engaging homepage for a music band, featuring their discography, upcoming events, and introducing the talented members behind the music.
 
 ## Instructions 📝
 
